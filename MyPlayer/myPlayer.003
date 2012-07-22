@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application>
+	<name>myPlayer</name>
+	<version>1.250</version>
+	<description>myPlayer: a light weight BBC iPlayer client<br /><br />For all the latest updates please visit: <a href="http://www.skynetsoftware.com/myPlayer">www.skynetsoftware.com/myPlayer</a></description>
+	<versionurl>http://www.skynetsoftware.com/myPlayer/myPlayer.xml</versionurl>
+	<caburl>http://www.skynetsoftware.com/myPlayer/myPlayer.cab</caburl>
+</application>

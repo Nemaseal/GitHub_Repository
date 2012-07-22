@@ -1,0 +1,71 @@
+<wap-provisioningdoc>
+<characteristic type="Install">
+<parm name="InstallPhase" value="install" />
+<parm name="OSVersionMin" value="4.0" />
+<parm name="OSVersionMax" value="6.99" />
+<parm name="BuildNumberMin" value="0" />
+<parm name="BuildNumberMax" value="-536870912" />
+<parm name="AppName" value="FWSoft myPlayer" />
+<parm name="InstallDir" value="%H%\data\myPlayer" translation="install" />
+<parm name="NumDirs" value="3" />
+<parm name="NumFiles" value="8" />
+<parm name="NumRegKeys" value="0" />
+<parm name="NumRegVals" value="0" />
+<parm name="NumShortcuts" value="1" />
+</characteristic>
+<characteristic type="FileOperation">
+<characteristic type="%InstallDir%" translation="install">
+<characteristic type="MakeDir" />
+<characteristic type="imsi.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="0000imsi.001" />
+</characteristic>
+</characteristic>
+<characteristic type="ofdlg.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="000ofdlg.002" />
+</characteristic>
+</characteristic>
+<characteristic type="myPlayer.xml" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="myPlayer.003" />
+</characteristic>
+</characteristic>
+<characteristic type="dvcmpt.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="00dvcmpt.004" />
+</characteristic>
+</characteristic>
+<characteristic type="myPlayer_icon.png" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="MYPLAY~1.005" />
+</characteristic>
+</characteristic>
+<characteristic type="kscroll.dll" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="0kscroll.006" />
+</characteristic>
+</characteristic>
+<characteristic type="myPlayer.ico" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="myPlayer.007" />
+</characteristic>
+</characteristic>
+<characteristic type="myPlayerPPC.exe" translation="install">
+<characteristic type="Extract">
+<parm name="Source" value="MYPLAY~1.008" />
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="%CE17%" translation="install">
+<characteristic type="MakeDir" />
+<characteristic type="myPlayer.lnk" translation="install">
+<characteristic type="Shortcut">
+<parm name="Source" value="%InstallDir%\myPlayerPPC.exe" translation="install" />
+</characteristic>
+</characteristic>
+</characteristic>
+</characteristic>
+<characteristic type="Registry">
+</characteristic>
+</wap-provisioningdoc>
